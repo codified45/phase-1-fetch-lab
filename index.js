@@ -48,13 +48,3 @@ Stretch deliverables:
     fetchTotalBookPages() function above.  
 
 */
-
-      // function computeTotalPages(books) {
-      //   let pageCount;
-      //   for (const book in books) {pageCount += books.numberOfPages};
-      //   //   for (const bookProperty in book)
-      //   //     if (bookProperty === "numberOfPages") {pageCount += book[bookProperty]}
-      //   // // }
-      //   debugger;
-      //   console.log(pageCount);
-      // }
