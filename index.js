@@ -1,6 +1,8 @@
 function fetchBooks() {
   // To pass the tests, don't forget to return your fetch!
-  
+  return fetch("https://anapioficeandfire.com/api/books") // the return here was needed so the Flatiron tests could see the fetch function. But it was not needed for the fetch/program to function.
+    .then((resp) => resp.json())
+    .then((json) => renderBooks(json));
 }
 
 function renderBooks(books) {
